@@ -1,30 +1,26 @@
-Create a web form where we could enter a product SKU or product barcode and it would bring up a page with several product parameters from BigCommerce:
-Product title
-Product picture
-Product price
-Product location
-And possible some other standard values available via BigCommerce API
-
-On the result page it should also show the current stock of the product accounting for active/unprocessed orders. Those order statuses are: 
-Awaiting Shipment
-Awaiting Payment
-Awaiting Pickup
-Manual Verification Required
-
+Create a web form where we could enter a product SKU or product barcode and it would bring up a page with several product parameters from BigCommerce:<br><br>
+Product title<br>
+Product picture<br>
+Product price<br>
+Product location<br>
+And possible some other standard values available via BigCommerce API<br>
+<br><br><br>
+On the result page it should also show the current stock of the product accounting for active/unprocessed orders. Those order statuses are: <br>
+Awaiting Shipment<br>
+Awaiting Payment<br>
+Awaiting Pickup<br>
+Manual Verification Required<br>
+<br><br>
 So, at the bottom of the page there should be a table called “Current Stock” and it should look something like this:
+<br><br>
+Current Stock<br>
+Awaiting Shipment - 12<br>
+Awaiting Payment - 1<br>
+Awaiting Pickup - 1<br>
+Manual Verification Required - 4<br>
+Available (current BigCommerce Stock) - 55<br>
+Current Shelf Stock - THE SUM OF ALL ABOVE<br><br>
 
-Current Stock
-<p>Awaiting Shipment - 12<p>
-Awaiting Payment - 1
-Awaiting Pickup - 1
-Manual Verification Required - 4
-Available (current BigCommerce Stock) - 55
-Current Shelf Stock - THE SUM OF ALL ABOVE
-
-
-
-The main challenge is to “catch” orders with the highlighted status and determine how many of that product are in those orders.
-
-The code must be regularly committed to a GitHub repository.
-
+The main challenge is to “catch” orders with the highlighted status and determine how many of that product are in those orders.<br>
+The code must be regularly committed to a GitHub repository.<br>
 The project must be done with the Laravel framework.
