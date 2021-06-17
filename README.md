@@ -14,7 +14,7 @@ Manual Verification Required
 So, at the bottom of the page there should be a table called “Current Stock” and it should look something like this:
 
 Current Stock
-Awaiting Shipment - 12
+<p>Awaiting Shipment - 12<p>
 Awaiting Payment - 1
 Awaiting Pickup - 1
 Manual Verification Required - 4
